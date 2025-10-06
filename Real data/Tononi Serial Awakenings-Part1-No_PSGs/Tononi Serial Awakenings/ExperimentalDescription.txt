@@ -1,0 +1,83 @@
+Dream EEG and Mentation (DREAM) dataset
+=======================================
+
+
+Dataset information
+-------------------
+
+- Common name: Tononi Serial Awakenings
+- Full name: N/A
+- Authors: Francesca Siclari, Benjamin Baird, Lampros Perogamvros, Melanie Boly, Joshua LaRocque, Giulio Tononi
+- Location: Madison, WI
+- Year: 2016
+- Set ID: 13
+- Amendment: 1
+- Corresponding author ID: 17
+
+Previous publications:  
+Siclari et al Nature Neuroscience 2017
+
+Correspondence:  
+Lampros Perogamvros (email: lampros.perogamvros@unige.ch)
+
+
+Metadata
+--------
+
+- Key ID: 18
+- Date entered: 2023-07-18T09:17:08+00:00
+- Number of samples: 261
+- Number of subjects: 36
+- Proportion REM: 0%
+- Proportion N1: 0%
+- Proportion N2: 100%
+- Proportion W: 0%
+- Proportion experience: 42%
+- Proportion no-experience: 39%
+- Proportion healthy: 100%
+- Provoked awakening: Yes
+- Time of awakening: Night
+- Form of response: Free
+- Date approved: 2023-07-18T09:26:37+00:00
+
+
+How to decode data files
+------------------------
+
+File "Data/HydroCelGSN256v10.sfp" gives the channel locations for all PSGs. It is a BESA surface point coordinate or EGI-xyz Cartesian coordinate file (.sfp); details about this format may be found at http://wiki.besa.de/index.php?title=Working_With_Additional_Files&oldid=5145.
+
+
+### Treatment group codes ###
+
+N/A
+
+
+Experimental description
+------------------------
+
+Procedure. The procedure used in this study has been described in detail in a previous publication9. Awakenings in the sleep laboratory were performed at pseudorandom intervals, irrespective of sleep stage, using a computerized sound that lasted 1.5 s, which was administered through E-Prime (Psychology Software Tools, Pittsburgh, PA). Subjects were instructed to signal that they had heard the alarm sound and to lie quietly on their back. They then underwent a structured interview via intercom about their mental activity that lasted between 20 s and 3.5 min, depending on whether the subject reported a conscious experience and had to answer additional questions related to the content. Signed informed consent was obtained from all participants before the experiment, and ethical approval for the study was obtained from the University of Wisconsin–Madison Institutional Review Board. Data collection and analysis were not performed blind to the conditions of the experiments.
+
+Study participants in experiment 1. Thirty-two healthy subjects (12 males, age 46 ± 13.3 years (mean ± s.d.), range 24–65 years), selected from a group of 69 subjects participating in a larger research project in our laboratory, were included in this experiment. Subjects were randomly selected from the subset of all participants that had at least one DE and NE report in NREM sleep during the same night. Among the 240 awakenings performed in these 32 subjects, 5 had to be excluded for technical problems and 2 because subjects were too somnolent upon awakening to answer questions reliably. Comparisons between DEWR–NE conditions and DE–DEWR conditions were performed in the subset of these participants (N = 20) that had all three types (DE, DEWR, NE) of report during the same night. In REM sleep, only 6 of the 69 participants presented both DE and NE. They were all included in the analysis.
+
+Sleep recordings. Recordings were made at the Wisconsin Center for Sleep and Consciousness. They were performed using a 256-channel high-density EEG (hd-EEG) system (Electrical Geodesics, Inc., Eugene, Ore.). Four of the 256 electrodes placed at the outer canthi of the eyes were used to monitor eye movements; additional polysomnography channels were used to record submental electromyography. Sleep scoring was performed over 30-s epochs, according to standard criteria.
+
+
+### DREAM categorization procedure ###
+
+We have converted dream categories in Records.csv as DE = Experience, DEWR = Experience without recall, NE = No Experience.
+
+
+Technical details
+-----------------
+
+N/A
+
+
+### Data acquisition ###
+
+EGI Geodesic with concurrent Alice PSG
+
+
+### Data preprocessing ###
+
+Raw data (no preprocessing)
